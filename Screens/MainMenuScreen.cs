@@ -17,8 +17,7 @@ namespace newgame.Screens;
         {
             // Example: press Escape to go back to StartScreen
 
-            
-            if (Microsoft.Xna.Framework.Input.Keyboard.GetState().IsKeyDown(Microsoft.Xna.Framework.Input.Keys.Escape))
+                        if (Microsoft.Xna.Framework.Input.Keyboard.GetState().IsKeyDown(Microsoft.Xna.Framework.Input.Keys.Escape))
             {
                 ScreenManager.ChangeScreen(new TitleScreen());
             }
