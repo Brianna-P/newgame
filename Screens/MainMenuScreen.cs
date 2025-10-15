@@ -10,12 +10,14 @@ namespace newgame.Screens;
 
         public override void LoadContent()
         {
-            _font = Game1.Instance.Content.Load<SpriteFont>("DefaultFont");
+            _font = Game1.Instance.Content.Load<SpriteFont>("File");
         }
 
         public override void Update(GameTime gameTime)
         {
             // Example: press Escape to go back to StartScreen
+
+            
             if (Microsoft.Xna.Framework.Input.Keyboard.GetState().IsKeyDown(Microsoft.Xna.Framework.Input.Keys.Escape))
             {
                 ScreenManager.ChangeScreen(new TitleScreen());
@@ -24,7 +26,8 @@ namespace newgame.Screens;
 
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
-            spriteBatch.DrawString(_font, "Welcome Home! Press Escape to return.", new Vector2(100, 100), Color.White);
+            spriteBatch.DrawString(_font, "Welcome To Main Menu! Press Escape to return To TitleScreen. ", new Vector2(100, 100), Color.White);
+
         }
     }
 

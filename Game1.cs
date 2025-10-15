@@ -18,14 +18,18 @@ public class Game1 : Game
         _graphics = new GraphicsDeviceManager(this);
         Content.RootDirectory = "Content";
         IsMouseVisible = true;
+        _graphics.PreferredBackBufferWidth = 1200;
+        _graphics.PreferredBackBufferHeight = 600;
+        _graphics.ApplyChanges();
     }
 
-  /*  protected override void Initialize()
+
+    protected override void Initialize()
     {
         // TODO: Add your initialization logic here
 
         base.Initialize();
-    }*/
+    }
 
     protected override void LoadContent()
     {
@@ -37,7 +41,7 @@ public class Game1 : Game
 
     protected override void Update(GameTime gameTime)
     {
-        if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
+               if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
             Exit();
 
         InputManager.Update();

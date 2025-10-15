@@ -1,31 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/briannapatten/Desktop/newgame/newgame/newgame.csproj": {}
+    "C:\\Users\\hluch\\Documents\\Projects\\NewGame\\newgame\\newgame.csproj": {}
   },
   "projects": {
-    "/Users/briannapatten/Desktop/newgame/newgame/newgame.csproj": {
+    "C:\\Users\\hluch\\Documents\\Projects\\NewGame\\newgame\\newgame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/briannapatten/Desktop/newgame/newgame/newgame.csproj",
+        "projectUniqueName": "C:\\Users\\hluch\\Documents\\Projects\\NewGame\\newgame\\newgame.csproj",
         "projectName": "newgame",
-        "projectPath": "/Users/briannapatten/Desktop/newgame/newgame/newgame.csproj",
-        "packagesPath": "/Users/briannapatten/.nuget/packages/",
-        "outputPath": "/Users/briannapatten/Desktop/newgame/newgame/obj/",
+        "projectPath": "C:\\Users\\hluch\\Documents\\Projects\\NewGame\\newgame\\newgame.csproj",
+        "packagesPath": "C:\\Users\\hluch\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hluch\\Documents\\Projects\\NewGame\\newgame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/briannapatten/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\hluch\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net8.0-windows"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
             "projectReferences": {}
           }
         },
@@ -36,8 +35,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
           "dependencies": {
             "MonoGame.Content.Builder.Task": {
               "target": "Package",
@@ -64,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.121/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

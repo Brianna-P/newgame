@@ -10,7 +10,8 @@ namespace newgame.Screens;
 
         public override void LoadContent()
         {
-            _font = Game1.Instance.Content.Load<SpriteFont>("DefaultFont");
+            _font = Game1.Instance.Content.Load<SpriteFont>("File");
+
         }
 
         public override void Update(GameTime gameTime)
