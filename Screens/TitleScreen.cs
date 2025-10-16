@@ -78,6 +78,8 @@ namespace newgame.Screens;
 
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
+            Vector2 titleSize = _font.MeasureString("ASTROFARM") * 2f;
+            spriteBatch.DrawString(_font, "ASTROFARM", new Vector2(Game1.Instance.width/2 - titleSize.X/2, Game1.Instance.height/4 - titleSize.Y/2), Color.White, 0f, Vector2.Zero, 2f, SpriteEffects.None, 0f);
             //Loop through rectangles to draw the menu
             for (int i = 0; i < Rectangles.Length; i++)
             {
