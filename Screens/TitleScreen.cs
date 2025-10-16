@@ -42,7 +42,9 @@ namespace newgame.Screens;
             for (int i = 0; i < Rectangles.Length; i++)
             {
                 spriteBatch.Draw(boxTexture, Rectangles[i], Color.Black);
-                spriteBatch.DrawString(_font, menuLabels[i], new Vector2(Rectangles[i].X + Rectangles[i].X * 0.3, Rectangles[i].Y + Rectangles[i].Y * 0.3), Color.White);
+                Vector2 textSize = _font.MeasureString(menuLabels[i]);
+                spriteBatch.DrawString(_font, menuLabels[i], new Vector2(Rectangles[i].X + (Rectangles[i].Width - textSize.X) / 2, 
+                Rectangles[i].Y + (Rectangles[i].Height - textSize.Y) / 2), Color.White);
             }
         }
     }
